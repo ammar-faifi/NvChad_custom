@@ -8,8 +8,10 @@ local lint = null_ls.builtins.diagnostics
 local sources = {
   formatting.djlint,
   lint.djlint,
+  formatting.black,
 }
 
 null_ls.setup {
    sources = sources,
+   default_timeout = 15000,
 }
