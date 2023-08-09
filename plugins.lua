@@ -1,5 +1,25 @@
 local plugins = {
   {
+    "nvim-treesitter/nvim-treesitter",
+    opts = {
+      ensure_installed = {
+        -- defaults 
+        "python",
+        "vim",
+        "lua",
+
+        -- web dev 
+        "html",
+        "css",
+        "javascript",
+
+       -- low level
+        "c",
+      },
+    },
+  },
+
+  {
     "L3MON4D3/LuaSnip",
     config = function(_, opts)
       -- call NvChad defualt `luasnip` configs
