@@ -12,7 +12,9 @@ local sources = {
   lint.djlint,
   formatting.black,
   formatting.latexindent,
-  diagnostics.cspell,
+  formatting.clang_format,
+  formatting.prettier,
+  -- diagnostics.cspell,
   code_actions.cspell,
 }
 
