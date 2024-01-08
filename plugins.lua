@@ -57,7 +57,7 @@ local plugins = {
 
     -- to load null-ls
      dependencies = {
-       "jose-elias-alvarez/null-ls.nvim",
+       "nvimtools/none-ls.nvim",
        config = function()
          require "custom.configs.null-ls"
        end,
