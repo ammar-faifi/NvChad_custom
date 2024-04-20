@@ -11,7 +11,6 @@ local sources = {
   formatting.djlint,
   lint.djlint,
   formatting.black,
-  formatting.latexindent,
   formatting.clang_format,
   formatting.prettier,
   -- diagnostics.cspell,
