@@ -13,8 +13,6 @@ local sources = {
   formatting.black,
   formatting.clang_format,
   formatting.prettier,
-  -- diagnostics.cspell,
-  code_actions.cspell,
 }
 
 null_ls.setup {
